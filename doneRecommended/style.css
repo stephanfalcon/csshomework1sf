@@ -8,18 +8,19 @@ body{
     background:rgb(163, 163, 163);
 }
 #top_bar{
-    height:100px;
+    height:75px;
     background:#ffffef;
 }
 #name{
     float:left;
     margin-left:250px;
-    height:100px;
+    height:75px;
     background:#00c7bd;
 }
 h1{
-    margin:35px;
+    margin:20px;
     color:#ffffef;
+
 }
 a{
     font-size:22px;
@@ -29,7 +30,7 @@ a{
 }
 nav{
     float:right;
-    margin:35px;
+    margin:25px;
     margin-right:250px;
 }
 #main{
@@ -38,13 +39,15 @@ nav{
     margin-left:250px;
     margin-right:250px;
     background:#ffffef;
-    margin-top:50px;
+    margin-top:35px;
+    padding:20px;
 }
 img{
     height:200px;
     width:300px;
     float:left;
-    padding:20px;
+    margin:40px;
+    background:orange;
 }
 p{
     padding:20px;
@@ -57,4 +60,29 @@ p{
 }
 hr{
     margin:20px;
+}
+input{
+    width:900px;
+    margin-left :40px;
+    margin-right:40px;
+}
+label{
+    margin-left :40px; 
+}
+#Message{
+
+}
+textarea{
+    width:900px;
+    margin-left :40px;
+    margin-right:40px;
+}
+h2{
+    margin-left:40px;
+    color:rgb(102,102,102);
+    margin-bottom:20px;
+}
+footer{
+    height:900px;
+    background:none;
 }
